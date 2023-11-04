@@ -1,6 +1,6 @@
 <h1 align="center">Healthcare Utilization Analysis for Dual Enrollees</h1>
 <p align="center">
-  <img src="images2.png" width="800" height="250" allow="autoplay">
+  <img src="images2.png" width="300" height="250" allow="autoplay">
 </p>
 
 
