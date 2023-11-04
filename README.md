@@ -28,4 +28,4 @@ The analysis leverages the following technology stack:
 - **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
 
 ---
-For more information on the project, installation instructions, usage, and contribution guidelines, please refer to the [project documentation](link-to-project-documentation).
+For more information on the project, installation instructions, usage, and contribution guidelines, please refer to the [project documentation](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
