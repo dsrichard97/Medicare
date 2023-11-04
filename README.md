@@ -40,7 +40,7 @@ The analysis leverages the following technology stack:
 
 ## Authors
 
-- **Richard Doe** - *Initial work* - [dsrichard97](https://github.com/dsrichard97)
+- **Richard Diaz** - *Initial work* - [dsrichard97](https://github.com/dsrichard97)
 
 ## Project Documentation
 
