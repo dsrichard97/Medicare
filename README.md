@@ -47,4 +47,4 @@ The analysis leverages the following technology stack:
 For a detailed walkthrough of the analysis, including code and visualizations, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
 
 ---
-For additional information on the project, installation instructions, usage, and contribution guidelines, please refer to the [project documentation](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
+For additional information on the project, installation instructions, usage, and contribution guidelines, please refer to my email.
