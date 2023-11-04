@@ -1,5 +1,13 @@
 # Healthcare Utilization Analysis for Dual Enrollees
 
+## Table of Contents
+- [Business Problem](#business-problem)
+- [Data Source](#data-source)
+- [Methods](#methods)
+- [Tech Stack](#tech-stack)
+- [Authors](#authors)
+- [Project Documentation](#project-documentation)
+
 ## Business Problem
 
 The healthcare industry faces the critical challenge of managing and reducing hospital readmissions for high-risk patients. A wellness program has been proposed as a potential solution to improve patient health outcomes and reduce the associated costs. The objective of this project is to evaluate the effectiveness of the wellness program in reducing healthcare utilization among individuals who are enrolled in both Medicare and Medicaid, also referred to as dual enrollees.
@@ -27,5 +35,13 @@ The analysis leverages the following technology stack:
 - **Version Control:** `Git` for tracking changes and collaborative development.
 - **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
 
+## Authors
+
+- **Richard Doe** - *Initial work* - [dsrichard97](https://github.com/dsrichard97)
+
+## Project Documentation
+
+For a detailed walkthrough of the analysis, including code and visualizations, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
+
 ---
-For more information on the project, installation instructions, usage, and contribution guidelines, please refer to the [project documentation](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
+For additional information on the project, installation instructions, usage, and contribution guidelines, please refer to the [project documentation](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
