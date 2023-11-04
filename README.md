@@ -1,10 +1,7 @@
-<h1 align="center">Healthcare Utilization Analysis for Dual Enrollees</h1>
+# Healthcare Utilization Analysis for Dual Enrollees
 <p align="center">
   <img src="images2.png" width="300" height="250" allow="autoplay">
 </p>
-
-
-# Healthcare Utilization Analysis for Dual Enrollees
 
 ## Table of Contents
 - [Business Problem](#business-problem)
