@@ -1,6 +1,7 @@
 # Healthcare Utilization Analysis for Dual Enrollees
 <p align="center">
   <img src="images2.png" width="300" height="250" allow="autoplay">
+  <img src="medi.jpeg" width="300" height="250" allow="autoplay">
 </p>
 
 ## Table of Contents
