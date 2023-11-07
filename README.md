@@ -22,9 +22,9 @@
 - [Data Source](#data-source)
 - [Methods](#methods)
 - [Tech Stack](#tech-stack)
-- [SQL Code](#sql-code)
 - [Authors](#authors)
 - [Project Documentation](#project-documentation)
+- [SQL Code](#sql-code)
 
 ## Business Problem
 
@@ -96,6 +96,15 @@ P-values for the treatment effect were non-significant, suggesting model reasses
 - **Data Visualization:** `matplotlib` and `seaborn` for generating informative plots and graphs. [Tableau](https://public.tableau.com/views/MedicareDualEnrollment2015-18/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)
 - **Version Control:** `Git` for tracking changes and collaborative development.
 - **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
+
+## Authors
+
+- [dsrichard97](https://github.com/dsrichard97)
+
+## Project Documentation
+
+For a detailed walkthrough of the analysis, including code and visualizations, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
+
 
 ## SQL Code
 
