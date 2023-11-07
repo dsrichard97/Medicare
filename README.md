@@ -50,6 +50,9 @@ To understand the impact of the wellness program, we employed several analytical
 </p>
 
 - **Exploratory Data Analysis (EDA):** Initial data exploration to understand distribution and data integrity.
+<p align="center">
+  <img src="init.png" width="600" height="200" allow="autoplay">
+</p>
 - **Causal Inference Techniques:** 
   - **Regression Analysis:** To estimate the program's impact on healthcare utilization.
   - **Propensity Score Matching (PSM):** To control for confounding variables and simulate a randomized control trial.
@@ -68,7 +71,10 @@ Methods Performed:
 - Difference-in-Differences (DiD): Implemented to estimate the treatment effect over time.
 - Issues Encountered and Suggestions:
   Regression Model Results </p>
-  
+
+  <p align="center">
+  <img src="init2.png" width="600" height="200" allow="autoplay">
+</p>
   Initial OLS regression showed no explanatory power.
   P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
   Model Specification Issues
@@ -77,7 +83,7 @@ Methods Performed:
   
 Data and Variable Checks
 Essential to ensure correct coding of treatment indicators.
-Variation in these variables is necessary to avoid multicollinearity.
+Variation in these variables is necessary to avoid multicollinearity. As a result, this reporting needs to dive in more for other tests, however, we did fina a lot of inital analysis information that gave us a lot of insights on solutions. Furthermore, we can run a couple PCA to reduce our set or gather more data.
 
 ## Tech Stack
 
