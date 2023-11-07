@@ -40,13 +40,13 @@ The data used in this project is sourced from state submissions to the Centers f
 ## Methods
 
 <p align="center">
-  <img src="prop1.png" width="400" height="200" allow="autoplay">
+  <img src="prop1.png" width="600" height="200" allow="autoplay">
 </p>
 
 
 To understand the impact of the wellness program, we employed several analytical methods:
 <p align="center">
-  <img src="prop2.png" width="400" height="200" allow="autoplay">
+  <img src="prop2.png" width="600" height="200" allow="autoplay">
 </p>
 
 - **Exploratory Data Analysis (EDA):** Initial data exploration to understand distribution and data integrity.
