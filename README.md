@@ -92,11 +92,10 @@ P-values for the treatment effect were non-significant, suggesting model reasses
 - Assess the need for more robust control groups.
 
 ## Tech Stack
-
-- **Python:** For data cleaning, manipulation, and analysis.
-- **R:** For advanced statistical modeling and inference.
-- **SQL:** To manage and query large datasets efficiently.
-- **Tableau:** For visualization and data storytelling.
+- **Data Wrangling and Analysis:** `Python` with `pandas`, `numpy`, and `statsmodels` for data manipulation and statistical modeling.
+- **Data Visualization:** `matplotlib` and `seaborn` for generating informative plots and graphs. [Tableau](https://public.tableau.com/views/MedicareDualEnrollment2015-18/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)
+- **Version Control:** `Git` for tracking changes and collaborative development.
+- **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
 
 ## SQL Code
 
