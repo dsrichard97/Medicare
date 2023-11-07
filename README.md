@@ -59,6 +59,25 @@ To understand the impact of the wellness program, we employed several analytical
 <p align="center">
   <img src="prop3.png" width="400" height="200" allow="autoplay">
 </p>
+Methods Performed:
+  1. Causal Inference with Regression
+      Attempted to estimate the treatment effect using regression.
+      Results indicated no significant treatment effect.
+  2. Temporal Causal Inference
+      Interrupted Time Series (ITS): Considered but not implemented due to data constraints.
+      Difference-in-Differences (DiD): Implemented to estimate the treatment effect over time.
+
+- Issues Encountered and Suggestions:
+  Regression Model Results
+  Initial OLS regression showed no explanatory power.
+  P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
+  Model Specification Issues
+  Subsequent regression attempts resulted in nan values for F-statistic and p-values.
+  Indicative of multicollinearity or lack of variation in treatment variables.
+  
+- Data and Variable Checks
+Essential to ensure correct coding of treatment indicators.
+Variation in these variables is necessary to avoid multicollinearity.
 
 ## Tech Stack
 
