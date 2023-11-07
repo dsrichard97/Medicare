@@ -109,16 +109,42 @@ For a detailed walkthrough of the analysis, including code and visualizations, p
 ## SQL Code
 
 ```sql
+WITH CleanedData AS (
+    SELECT 
+        State_Abbr,
+        County_Name,
+        Date,
+        COALESCE(QMB_Only, 0) AS Total_QMB_Only, --using COALESCE to fill with 0 for null values
+        COALESCE(QMB_plus_Full, 0) AS Total_QMB_plus_Full,
+        COALESCE(SLMB_only, 0) AS Total_SLMB_only,
+        COALESCE(SLMB_plus_Full, 0) AS Total_SLMB_plus_Full,
+        COALESCE(QDWI, 0) AS Total_QDWI,
+        COALESCE(QI, 0) AS Total_QI,
+        COALESCE(Other_full, 0) AS Total_Other_full,
+        COALESCE(Public_Total, 0) AS Total_Public_Total
+    FROM 
+`bigquery-public-data.sdoh_cms_dual_eligible_enrollment.dual_eligible_enrollment_by_county_and_program`
+)
 SELECT
-  COUNT(*),
-  AVG(AGE),
-  CASE
-    WHEN chronic_condition_count > 5 THEN 'High Risk'
-    WHEN chronic_condition_count BETWEEN 3 AND 5 THEN 'Medium Risk'
-    ELSE 'Low Risk'
-  END AS risk_level
+    State_Abbr,
+    County_Name,
+    Date,
+    SUM(Total_QMB_Only) AS Total_QMB_Only,
+    SUM(Total_QMB_plus_Full) AS Total_QMB_plus_Full,
+    SUM(Total_SLMB_only) AS Total_SLMB_only,
+    SUM(Total_SLMB_plus_Full) AS Total_SLMB_plus_Full,
+    SUM(Total_QDWI) AS Total_QDWI,
+    SUM(Total_QI) AS Total_QI,
+    SUM(Total_Other_full) AS Total_Other_full,
+    SUM(Total_Public_Total) AS Total_Public_Total
 FROM
-  enrollee_data
+    CleanedData
 GROUP BY
-  risk_level;
+    State_Abbr,
+    County_Name,
+    Date
+ORDER BY
+    State_Abbr,
+    County_Name,
+    Date;
 
