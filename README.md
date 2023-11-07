@@ -52,6 +52,14 @@ To understand the impact of the wellness program, we employed several analytical
   - **Propensity Score Matching (PSM):** To control for confounding variables and simulate a randomized control trial.
   - **Difference-in-Differences (DiD):** To compare the pre- and post-program changes in utilization.
 
+## Recommendations
+<p align="center">
+  <img src="prop2.png" width="600" height="200" allow="autoplay">
+</p>
+<p align="center">
+  <img src="prop3.png" width="600" height="200" allow="autoplay">
+</p>
+
 ## Tech Stack
 
 The analysis leverages the following technology stack:
