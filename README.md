@@ -51,7 +51,7 @@ To understand the impact of the wellness program, we employed several analytical
 
 - **Exploratory Data Analysis (EDA):** Initial data exploration to understand distribution and data integrity.
 <p align="center">
-  <img src="init.png" width="600" height="200" allow="autoplay">
+  <img src="init.png" width="400" height="200" allow="autoplay">
 </p>
 - **Causal Inference Techniques:** 
   - **Regression Analysis:** To estimate the program's impact on healthcare utilization.
@@ -73,7 +73,7 @@ Methods Performed:
   Regression Model Results </p>
 
   <p align="center">
-  <img src="init2.png" width="600" height="200" allow="autoplay">
+  <img src="init2.png" width="400" height="200" allow="autoplay">
 </p>
   Initial OLS regression showed no explanatory power.
   P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
