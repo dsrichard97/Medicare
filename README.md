@@ -36,11 +36,13 @@ A healthcare insurance company wants to understand the impact of a new wellness 
 
 The data used in this project is sourced from state submissions to the Centers for Medicare & Medicaid Services (CMS), as mandated by the Medicare Modernization Act (MMA). These submissions provide monthly snapshot data on dual enrollees, offering insights into the enrollee counts by various eligibility types at both the state and county levels. It's important to note that these figures are not cumulative and represent distinct monthly counts.
 
+
+## Methods
+
 <p align="center">
   <img src="prop1.png" width="600" height="200" allow="autoplay">
 </p>
 
-## Methods
 
 To understand the impact of the wellness program, we employed several analytical methods:
 
