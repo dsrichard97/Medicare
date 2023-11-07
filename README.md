@@ -53,23 +53,26 @@ To understand the impact of the wellness program, we employed several analytical
 <p align="center">
   <img src="init.png" width="400" height="200" allow="autoplay">
 </p>
-- **Causal Inference Techniques:** 
-  - **Regression Analysis:** To estimate the program's impact on healthcare utilization.
-  - **Propensity Score Matching (PSM):** To control for confounding variables and simulate a randomized control trial.
-  - **Difference-in-Differences (DiD):** To compare the pre- and post-program changes in utilization.
+
+### Causal Inference Techniques
+- **Regression Analysis**: Utilized for estimating the impact of a program on healthcare utilization metrics.
+- **Propensity Score Matching (PSM)**: Employed to adjust for confounders and emulate the conditions of a randomized controlled trial, thereby approximating the causal effect of the program.
+- **Difference-in-Differences (DiD)**: Applied to assess the differential effect of the program by comparing the changes in healthcare utilization before and after the program's implementation, across treatment and control groups.
+
 
 ## Recommendations
 <p align="center">
   <img src="prop3.png" width="400" height="200" allow="autoplay">
 </p>
 Methods Performed:
- 1. Causal Inference with Regression
+<p> 1. Causal Inference with Regression
       Attempted to estimate the treatment effect using regression.
-      Results indicated no significant treatment effect.
- 2. Temporal Causal Inference 
+      Results indicated no significant treatment effect. </p>
+<p> 2. Temporal Causal Inference 
 - Interrupted Time Series (ITS): Considered but not implemented due to data constraints.
-- Difference-in-Differences (DiD): Implemented to estimate the treatment effect over time.
-- Issues Encountered and Suggestions:
+- Difference-in-Differences (DiD): Implemented to estimate the treatment effect over time. </p>
+
+
   Regression Model Results 
 
   <p align="center">
