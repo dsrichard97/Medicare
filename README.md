@@ -7,6 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python_Version-3.10%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/SQL-blue" alt="Google BigQuery">
   <img src="https://img.shields.io/github/last-commit/dsrichard97/otherprojects" alt="Last Commit">
   <img src="https://img.shields.io/badge/Financial_Analysis-Trends-red" alt="Financial Analysis">
   <img src="https://img.shields.io/badge/STAT-Time_Series-blue" alt="Time Series">
