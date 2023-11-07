@@ -63,11 +63,11 @@ Methods Performed:
  <p> 1. Causal Inference with Regression
       Attempted to estimate the treatment effect using regression.
       Results indicated no significant treatment effect.</p>
-  2. Temporal Causal Inference
+<p> 2. Temporal Causal Inference 
 - Interrupted Time Series (ITS): Considered but not implemented due to data constraints.
 - Difference-in-Differences (DiD): Implemented to estimate the treatment effect over time.
 - Issues Encountered and Suggestions:
-  Regression Model Results
+  Regression Model Results </p>
   
   Initial OLS regression showed no explanatory power.
   P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
