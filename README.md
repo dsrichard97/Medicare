@@ -82,8 +82,7 @@ Methods Performed:
   Indicative of multicollinearity or lack of variation in treatment variables.
   
 Data and Variable Checks
-Essential to ensure correct coding of treatment indicators.
-Variation in these variables is necessary to avoid multicollinearity. As a result, this reporting needs to dive in more for other tests, however, we did fina a lot of inital analysis information that gave us a lot of insights on solutions. Furthermore, we can run a couple PCA to reduce our set or gather more data.
+It is imperative for the accuracy of statistical models to properly encode treatment indicators. This step is crucial to maintain the distinctiveness of variables and thus avert the issue of multicollinearity, which can compromise the integrity of the model's estimates. Consequently, it is necessary to undertake a more detailed examination of these variables when considering additional diagnostic tests. The preliminary analyses conducted have yielded substantial information, facilitating the identification of potential solutions. Moreover, Principal Component Analysis (PCA) could be employed as a strategy to condense the variable set, or alternatively, the collection of additional data may be beneficial to enrich the dataset.
 
 ## Tech Stack
 
