@@ -45,6 +45,9 @@ The data used in this project is sourced from state submissions to the Centers f
 
 
 To understand the impact of the wellness program, we employed several analytical methods:
+<p align="center">
+  <img src="prop2.png" width="600" height="200" allow="autoplay">
+</p>
 
 - **Exploratory Data Analysis (EDA):** Initial data exploration to understand distribution and data integrity.
 - **Causal Inference Techniques:** 
@@ -54,10 +57,7 @@ To understand the impact of the wellness program, we employed several analytical
 
 ## Recommendations
 <p align="center">
-  <img src="prop2.png" width="600" height="200" allow="autoplay">
-</p>
-<p align="center">
-  <img src="prop3.png" width="600" height="200" allow="autoplay">
+  <img src="prop3.png" width="400" height="200" allow="autoplay">
 </p>
 
 ## Tech Stack
