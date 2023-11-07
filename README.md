@@ -73,7 +73,7 @@ Methods Performed:
   Regression Model Results </p>
 
   <p align="center">
-  <img src="init2.png" width="400" height="200" allow="autoplay">
+  <img src="init2.png" width="300" height="200" allow="autoplay">
 </p>
   Initial OLS regression showed no explanatory power.
   P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
