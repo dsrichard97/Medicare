@@ -1,108 +1,69 @@
 # Healthcare Utilization Analysis for Dual Enrollees
-<p align="center">
-  <img src="images2.png" width="300" height="250" allow="autoplay">
-  <img src="medi.jpeg" width="300" height="250" allow="autoplay">
-</p>
 
-<p>
-  <img src="https://img.shields.io/badge/Python_Version-3.10%2B-blue" title="Python Version">
-  <img src="https://img.shields.io/github/last-commit/dsrichard97/otherprojects">
-  <img src="https://img.shields.io/badge/Financial Analysis-Trends-red">
-  <img src="https://img.shields.io/badge/STAT-Time Series-blue">
-  <img src="https://img.shields.io/badge/STAT-Causal Inference-blue">
-  <img src="https://img.shields.io/badge/Python-Pandas-green">
-  <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<div align="center">
+  <img src="images2.png" width="300" height="250" alt="Healthcare Utilization Image 1">
+  <img src="medi.jpeg" width="300" height="250" alt="Healthcare Utilization Image 2">
+</div>
 
-  <p>
-  
+<div align="center">
+  <img src="https://img.shields.io/badge/Python_Version-3.10%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/github/last-commit/dsrichard97/otherprojects" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Financial Analysis-Trends-red" alt="Financial Analysis - Trends">
+  <img src="https://img.shields.io/badge/STAT-Time Series-blue" alt="STAT - Time Series">
+  <img src="https://img.shields.io/badge/STAT-Causal Inference-blue" alt="STAT - Causal Inference">
+  <img src="https://img.shields.io/badge/Python-Pandas-green" alt="Python - Pandas">
+  <a href="https://github.com/ellerbrock/open-source-badges/">
+    <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source Badge">
+  </a>
+</div>
 
 ## Table of Contents
+- [Introduction](#introduction)
 - [Business Problem](#business-problem)
 - [Data Source](#data-source)
-- [Methods](#methods)
+- [Methodology](#methodology)
+- [Causal Inference Techniques](#causal-inference-techniques)
+- [Recommendations](#recommendations)
+- [SQL Queries](#sql-queries)
 - [Tech Stack](#tech-stack)
 - [Authors](#authors)
 - [Project Documentation](#project-documentation)
 
+## Introduction
+<p align="justify">
+The healthcare industry is facing the critical challenge of managing and reducing hospital readmissions for high-risk patients. This project aims to evaluate the effectiveness of a wellness program in reducing healthcare utilization among dual enrollees in Medicare and Medicaid, using a rigorous data-driven approach.
+</p>
+
 ## Business Problem
-
-Current Market:
-The healthcare industry faces the critical challenge of managing and reducing hospital readmissions for high-risk patients. A wellness program has been proposed as a potential solution to improve patient health outcomes and reduce the associated costs. The objective of this project is to evaluate the effectiveness of the wellness program in reducing healthcare utilization among individuals who are enrolled in both Medicare and Medicaid, also referred to as dual enrollees.
-
-*Business Problem - Using Causal Inference Proposition*:
-A healthcare insurance company wants to understand the impact of a new wellness program designed to reduce hospital readmissions. The company believes that by enrolling high-risk patients in this program, they can improve patient health outcomes and reduce costs associated with readmissions. The business problem is to determine whether the wellness program is effective.
+<p align="justify">
+A healthcare insurance company seeks to understand the impact of a new wellness program aimed at reducing hospital readmissions. By analyzing patient data, the company aims to improve health outcomes and reduce costs, establishing the efficacy of the program.
+</p>
 
 ## Data Source
-
-The data used in this project is sourced from state submissions to the Centers for Medicare & Medicaid Services (CMS), as mandated by the Medicare Modernization Act (MMA). These submissions provide monthly snapshot data on dual enrollees, offering insights into the enrollee counts by various eligibility types at both the state and county levels. It's important to note that these figures are not cumulative and represent distinct monthly counts.
-
-
-## Methods - Causal inference (Initial Snooping)
-
-<p align="center">
-  <img src="prop1.png" width="600" height="200" allow="autoplay">
+<p align="justify">
+Data for this analysis is sourced from state submissions to the Centers for Medicare & Medicaid Services (CMS), providing valuable insights into enrollee counts by eligibility types on a monthly basis.
 </p>
 
+## Methodology
+<div align="center">
+  <img src="prop1.png" width="600" height="200" alt="Methodology Visual">
+</div>
 
-To understand the impact of the wellness program, we employed several analytical methods:
-<p align="center">
-  <img src="prop2.png" width="600" height="200" allow="autoplay">
-</p>
-
-- **Exploratory Data Analysis (EDA):** Initial data exploration to understand distribution and data integrity.
-<p align="center">
-  <img src="init.png" width="400" height="200" allow="autoplay">
-</p>
-
-### Causal Inference Techniques
-- **Regression Analysis**: Utilized for estimating the impact of a program on healthcare utilization metrics.
-- **Propensity Score Matching (PSM)**: Employed to adjust for confounders and emulate the conditions of a randomized controlled trial, thereby approximating the causal effect of the program.
-- **Difference-in-Differences (DiD)**: Applied to assess the differential effect of the program by comparing the changes in healthcare utilization before and after the program's implementation, across treatment and control groups.
-
+## Causal Inference Techniques
+- **Regression Analysis:** Estimating program impact on healthcare utilization.
+- **Propensity Score Matching (PSM):** Simulating randomized control trials to control confounding variables.
+- **Difference-in-Differences (DiD):** Assessing pre- and post-program changes in utilization.
 
 ## Recommendations
-<p align="center">
-  <img src="prop3.png" width="400" height="200" allow="autoplay">
-</p>
-Methods Performed:
-<p> 1. Causal Inference with Regression
-      Attempted to estimate the treatment effect using regression.
-      Results indicated no significant treatment effect. </p>
-<p> 2. Temporal Causal Inference 
-- Interrupted Time Series (ITS): Considered but not implemented due to data constraints.
-- Difference-in-Differences (DiD): Implemented to estimate the treatment effect over time. </p>
+<div align="center">
+  <img src="prop3.png" width="400" height="200" alt="Recommendations Visual">
+</div>
 
-
-  Regression Model Results 
-
-  <p align="center">
-  <img src="init2.png" width="300" height="200" allow="autoplay">
-</p>
-  Initial OLS regression showed no explanatory power.
-  P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
-  Model Specification Issues
-  Subsequent regression attempts resulted in nan values for F-statistic and p-values.
-  Indicative of multicollinearity or lack of variation in treatment variables.
-  
-Data and Variable Checks
-It is imperative for the accuracy of statistical models to properly encode treatment indicators. This step is crucial to maintain the distinctiveness of variables and thus avert the issue of multicollinearity, which can compromise the integrity of the model's estimates. Consequently, it is necessary to undertake a more detailed examination of these variables when considering additional diagnostic tests. The preliminary analyses conducted have yielded substantial information, facilitating the identification of potential solutions. Moreover, Principal Component Analysis (PCA) could be employed as a strategy to condense the variable set, or alternatively, the collection of additional data may be beneficial to enrich the dataset.
-
-## Tech Stack
-
-The analysis leverages the following technology stack:
-
-- **Data Wrangling and Analysis:** `Python` with `pandas`, `numpy`, and `statsmodels` for data manipulation and statistical modeling.
-- **Data Visualization:** `matplotlib` and `seaborn` for generating informative plots and graphs. [Tableau](https://public.tableau.com/views/MedicareDualEnrollment2015-18/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)
-- **Version Control:** `Git` for tracking changes and collaborative development.
-- **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
-
-## Authors
-
-- [dsrichard97](https://github.com/dsrichard97)
-
-## Project Documentation
-
-For a detailed walkthrough of the analysis, including code and visualizations, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
-
----
-For additional information on the project, installation instructions, usage, and contribution guidelines, please refer to my email.
+## SQL Queries
+```sql
+-- Example SQL query to analyze healthcare data
+SELECT patient_id, program_enrollment, hospital_visits
+FROM healthcare_utilization
+WHERE program_enrollment = 'Wellness Program'
+GROUP BY patient_id
+ORDER BY hospital_visits DESC;
