@@ -47,7 +47,7 @@ The provided data offers valuable insights into the number of dual enrollees, ca
 
 **Data Processing and Analysis Tools:**
 
-For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data. For a sample overview of the whole code: 
+For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data. For a sample of the raw data: https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/hleveldualenroll.vsdx 
 
 ## Methods - Causal inference (Initial Snooping)
 
