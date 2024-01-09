@@ -126,13 +126,12 @@ In summary, the initial OLS regression results suggest that the model needs refi
 - **Version Control:** `Git` for tracking changes and collaborative development.
 - **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
 
-## Authors
 
-- [dsrichard97](https://github.com/dsrichard97)
-
-## Project Documentation
-
-For a detailed walkthrough of the analysis, including code and visualizations, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
+## Resources
+- [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+- For a detailed walkthrough of the analysis, including code and visualizations using python, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
+- [High Level Overview](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb)
+- [PowerPoint](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb)
 
 
 ## SQL Code
