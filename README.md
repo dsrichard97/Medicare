@@ -38,9 +38,9 @@ Gaining a deeper understanding of dual enrollees is crucial for businesses, espe
 ## Data Source
 ** Data Origin and Regulatory Background: ** The data for this project is derived from submissions made by states to the Centers for Medicare & Medicaid Services (CMS), as required under the Medicare Modernization Act (MMA). These submissions are a critical source of information, as they furnish monthly snapshot data on individuals enrolled in both Medicare and Medicaid.
 
-** Nature of the Data **: The provided data offers valuable insights into the number of dual enrollees, categorized by various eligibility criteria at both state and county levels. A crucial aspect to understand is that these numbers are not cumulative; they represent unique counts for each month. This distinction is vital for accurate analysis and interpretation of trends over time.
+** Nature of the Data: ** The provided data offers valuable insights into the number of dual enrollees, categorized by various eligibility criteria at both state and county levels. A crucial aspect to understand is that these numbers are not cumulative; they represent unique counts for each month. This distinction is vital for accurate analysis and interpretation of trends over time.
 
-** Data Processing and Analysis Tools **: For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data.
+** Data Processing and Analysis Tools: ** For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data.
 
 ## Methods - Causal inference (Initial Snooping)
 
