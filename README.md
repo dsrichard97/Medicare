@@ -23,9 +23,9 @@
 - [Data Source](#data-source)
 - [Methods](#methods)
 - [Tech Stack](#tech-stack)
-- [Authors](#authors)
 - [Project Documentation](#project-documentation)
 - [SQL Code](#sql-code)
+- [Resources](#resources)
 
 ## Business Problem
 
