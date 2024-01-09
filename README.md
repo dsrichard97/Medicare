@@ -103,14 +103,22 @@ Implementation: DiD was employed to estimate the treatment effect over time. Thi
   <img src="init2.png" width="300" height="200" />
 </p>
 
-Initial OLS regression showed no explanatory power.
-P-values for the treatment effect were non-significant, suggesting model reassessment is needed.
+**Outcome of Initial OLS Regression:**
 
-**Follow-Up Analysis:**
+- Explanatory Power: The initial Ordinary Least Squares (OLS) regression analysis demonstrated no significant explanatory power in terms of the relationship between the wellness program and healthcare utilization metrics.
 
-- Consider more granular data collection.
-- Explore additional analytical methods.
-- Assess the need for more robust control groups.
+- Significance of Treatment Effect: The p-values for the treatment effect were non-significant, which indicates that, as per this model, the wellness program did not have a statistically significant impact on the outcomes being measured.
+
+- Implication: Such results necessitate a reassessment of the model. Non-significant results could be due to various factors such as model misspecification, inadequate control variables, or insufficient data.
+Recommendations for Follow-Up Analysis
+
+- Granular Data Collection: Consider collecting more detailed data. Granularity could provide deeper insights, especially if there are subtle effects of the program that broader data might not capture. This could involve gathering more specific data points or extending the timeframe of data collection.
+- Exploration of Additional Analytical Methods: Given the initial results, exploring other analytical methods might be beneficial. Techniques like logistic regression, survival analysis, or machine learning models could offer alternative insights, particularly in understanding complex relationships or interactions within the data.
+
+- Assessment for More Robust Control Groups: Re-evaluating the control groups used in the analysis is crucial. Ensuring that the control group closely matches the treatment group in all aspects except for the treatment itself (enrollment in the wellness program) is key for causal inference. Techniques like propensity score matching or using more advanced matching algorithms could help in creating more robust control groups.
+
+
+In summary, the initial OLS regression results suggest that the model needs refinement or a different analytical approach. By focusing on more granular data, exploring alternative methods, and ensuring the use of robust control groups, you may be able to derive more meaningful insights and better understand the impact of the wellness program on dual enrollees.
 
 ## Tech Stack
 - **Data Wrangling and Analysis:** `Python` with `pandas`, `numpy`, and `statsmodels` for data manipulation and statistical modeling.
