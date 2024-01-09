@@ -62,14 +62,17 @@ To understand the impact of the wellness program, we employed several analytical
 </p>
 
 ### Causal Inference Techniques
-- **Exploratory Data Analysis (EDA):** Initial data exploration to understand distribution and data integrity.
 <p align="center">
   <img src="init.png" width="400" height="200" />
 </p>
 
-- **Regression Analysis**: Utilized for estimating the impact of a program on healthcare utilization metrics.
-- **Propensity Score Matching (PSM)**: Employed to adjust for confounders and emulate the conditions of a randomized controlled trial, thereby approximating the causal effect of the program.
-- **Difference-in-Differences (DiD)**: Applied to assess the differential effect of the program by comparing the changes in healthcare utilization before and after the program's implementation, across treatment and control groups.
+- 1. Exploratory Data Analysis (EDA): This is the initial phase where the data is explored to understand its distribution and verify its integrity. EDA involves visualizing, summarizing, and interpreting the characteristics of the data. This step is crucial for identifying patterns, anomalies, and forming hypotheses about the relationships within the data.
+
+- 2. Regression Analysis: This technique is instrumental in estimating the impact of the wellness program on healthcare utilization metrics. Regression analysis helps in understanding the relationship between independent variables (like program participation) and dependent variables (such as healthcare utilization rates), controlling for other factors.
+
+- 3. Propensity Score Matching (PSM): PSM is a statistical technique used to create a synthetic control group by matching participants of the wellness program with non-participants having similar characteristics. This approach helps to adjust for confounding variables that could bias the results and simulates the conditions of a randomized controlled trial. The goal is to approximate the causal effect of the wellness program on dual enrollees.
+
+- 4. Difference-in-Differences (DiD): The DiD method is used to assess the program's differential impact by comparing the changes in healthcare utilization metrics before and after its implementation. This comparison is made across both the groups that participated in the program (treatment group) and those that did not (control group). This method helps to isolate the effect of the program by factoring out other variables that could affect healthcare utilization.
 
 ## Recommendations
 
