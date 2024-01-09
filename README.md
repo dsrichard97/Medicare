@@ -185,5 +185,5 @@ In summary, the initial OLS regression results suggest that the model needs refi
 - For visualizations visit [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 - For a detailed walkthrough of the analysis, including code and visualizations using python, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
 - Please download the workflow for a high level overview [High Level Overview](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/hleveldualenroll.vsdx)
-- For reporting purposes [PowerPoint](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb)
+- For reporting purposes [PowerPoint](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Presentation5.pptx)
 
