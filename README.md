@@ -82,13 +82,20 @@ To understand the impact of the wellness program, we employed several analytical
 
 **Methods Performed:**
 
-1. **Causal Inference with Regression:**
-   Attempted to estimate the treatment effect using regression.
-   Results indicated no significant treatment effect.
+-> **1. Causal Inference with Regression**
 
-2. **Temporal Causal Inference:**
-   - **Interrupted Time Series (ITS):** Considered but not implemented due to data constraints.
-   - **Difference-in-Differences (DiD):** Implemented to estimate the treatment effect over time.
+Objective: The primary aim was to estimate the treatment effect of the wellness program using regression analysis.
+
+Outcome: The results from this method indicated that there was no significant treatment effect. This could imply that the program did not have a measurable impact on healthcare utilization metrics for dual enrollees, or that the effect was too subtle to be captured through this method.
+Temporal Causal Inference Techniques
+
+-> **2. Interrupted Time Series (ITS)**
+Consideration: This method was considered for its potential to analyze the effect of interventions over time by examining data points before and after the implementation of the program.
+
+Decision: Ultimately, ITS was not implemented due to data constraints. Such constraints could include insufficient time points, lack of granularity in the data, or other limitations that hinder the effective application of ITS.
+
+-> **3. Difference-in-Differences (DiD)**
+Implementation: DiD was employed to estimate the treatment effect over time. This method is advantageous in observational studies where random assignment is not feasible. It compares the changes in outcomes over time between a group that received the treatment (enrolled in the wellness program) and a control group (not enrolled).
 
 **Regression Model Results:**
 
