@@ -45,9 +45,63 @@ The data for this project is derived from submissions made by states to the Cent
 
 The provided data offers valuable insights into the number of dual enrollees, categorized by various eligibility criteria at both state and county levels. A crucial aspect to understand is that these numbers are not cumulative; they represent unique counts for each month. This distinction is vital for accurate analysis and interpretation of trends over time.
 
+
+## SQL Code
+
+```sql
+WITH CleanedData AS (
+    SELECT 
+        State_Abbr,
+        County_Name,
+        Date,
+        COALESCE(QMB_Only, 0) AS Total_QMB_Only, --using COALESCE to fill with 0 for null values
+        COALESCE(QMB_plus_Full, 0) AS Total_QMB_plus_Full,
+        COALESCE(SLMB_only, 0) AS Total_SLMB_only,
+        COALESCE(SLMB_plus_Full, 0) AS Total_SLMB_plus_Full,
+        COALESCE(QDWI, 0) AS Total_QDWI,
+        COALESCE(QI, 0) AS Total_QI,
+        COALESCE(Other_full, 0) AS Total_Other_full,
+        COALESCE(Public_Total, 0) AS Total_Public_Total
+    FROM 
+`bigquery-public-data.sdoh_cms_dual_eligible_enrollment.dual_eligible_enrollment_by_county_and_program`
+)
+SELECT
+    State_Abbr,
+    County_Name,
+    Date,
+    SUM(Total_QMB_Only) AS Total_QMB_Only,
+    SUM(Total_QMB_plus_Full) AS Total_QMB_plus_Full,
+    SUM(Total_SLMB_only) AS Total_SLMB_only,
+    SUM(Total_SLMB_plus_Full) AS Total_SLMB_plus_Full,
+    SUM(Total_QDWI) AS Total_QDWI,
+    SUM(Total_QI) AS Total_QI,
+    SUM(Total_Other_full) AS Total_Other_full,
+    SUM(Total_Public_Total) AS Total_Public_Total
+FROM
+    CleanedData
+GROUP BY
+    State_Abbr,
+    County_Name,
+    Date
+ORDER BY
+    State_Abbr,
+    County_Name,
+    Date;
+```
+
+
+
+
+
+
+
+
+
+
+
 **Data Processing and Analysis Tools:**
 
-For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data. For a sample of the raw data: https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/hleveldualenroll.vsdx 
+For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data. For a sample of the raw data: https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/dual.csv
 
 ## Methods - Causal inference (Initial Snooping)
 
@@ -132,47 +186,4 @@ In summary, the initial OLS regression results suggest that the model needs refi
 - For a detailed walkthrough of the analysis, including code and visualizations using python, please refer to the [Healthcare EDA notebook](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb).
 - Please download the workflow for a high level overview [High Level Overview](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/hleveldualenroll.vsdx)
 - For reporting purposes [PowerPoint](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/Healthcare_EDA.ipynb)
-
-
-## SQL Code
-
-```sql
-WITH CleanedData AS (
-    SELECT 
-        State_Abbr,
-        County_Name,
-        Date,
-        COALESCE(QMB_Only, 0) AS Total_QMB_Only, --using COALESCE to fill with 0 for null values
-        COALESCE(QMB_plus_Full, 0) AS Total_QMB_plus_Full,
-        COALESCE(SLMB_only, 0) AS Total_SLMB_only,
-        COALESCE(SLMB_plus_Full, 0) AS Total_SLMB_plus_Full,
-        COALESCE(QDWI, 0) AS Total_QDWI,
-        COALESCE(QI, 0) AS Total_QI,
-        COALESCE(Other_full, 0) AS Total_Other_full,
-        COALESCE(Public_Total, 0) AS Total_Public_Total
-    FROM 
-`bigquery-public-data.sdoh_cms_dual_eligible_enrollment.dual_eligible_enrollment_by_county_and_program`
-)
-SELECT
-    State_Abbr,
-    County_Name,
-    Date,
-    SUM(Total_QMB_Only) AS Total_QMB_Only,
-    SUM(Total_QMB_plus_Full) AS Total_QMB_plus_Full,
-    SUM(Total_SLMB_only) AS Total_SLMB_only,
-    SUM(Total_SLMB_plus_Full) AS Total_SLMB_plus_Full,
-    SUM(Total_QDWI) AS Total_QDWI,
-    SUM(Total_QI) AS Total_QI,
-    SUM(Total_Other_full) AS Total_Other_full,
-    SUM(Total_Public_Total) AS Total_Public_Total
-FROM
-    CleanedData
-GROUP BY
-    State_Abbr,
-    County_Name,
-    Date
-ORDER BY
-    State_Abbr,
-    County_Name,
-    Date;
 
