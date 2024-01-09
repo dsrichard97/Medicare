@@ -33,10 +33,9 @@
 The healthcare industry faces the critical challenge of managing and reducing hospital readmissions for high-risk patients. A wellness program has been proposed as a potential solution to improve patient health outcomes and reduce the associated costs. The objective of this project is to evaluate the effectiveness of the wellness program in reducing healthcare utilization among individuals who are enrolled in both Medicare and Medicaid, also referred to as dual enrollees.
 
 **Business Problem - Using Causal Inference Proposition:**
-A healthcare insurance company wants to understand the impact of a new wellness program designed to reduce hospital readmissions. The company believes that by enrolling high-risk patients in this program, they can improve patient health outcomes and reduce costs associated with readmissions. The business problem is to determine whether the wellness program is effective.
+It is important for business to have a better understand of dual enrolles to help leverage marketing teams to gain memberships. Account management or sales people usually work on a contract basis with business and sometimes for specific cases track specific members to gain memberships and also create better marketing tactics. This project gives a high level overview of dual enrollees form a causal inference perspective.
 
 ## Data Source
-
 The data used in this project is sourced from state submissions to the Centers for Medicare & Medicaid Services (CMS), as mandated by the Medicare Modernization Act (MMA). These submissions provide monthly snapshot data on dual enrollees, offering insights into the enrollee counts by various eligibility types at both the state and county levels. It's important to note that these figures are not cumulative and represent distinct monthly counts. SQL code comes from using [Google BigQuery](https://cloud.google.com/?hl=en).
 
 ## Methods - Causal inference (Initial Snooping)
