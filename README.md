@@ -178,7 +178,7 @@ In summary, the initial OLS regression results suggest that the model needs refi
 <p align="center">
   <img src="tab.png" width="400" height="200" />
 
-  Click on the **RESOURCES LINK** down below to see the interactive Tableau dashboard.
+  Click on the <b>RESOURCES LINK</b> down below to see the interactive Tableau dashboard.
 </p>
 
 ## Tech Stack
