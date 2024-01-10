@@ -174,6 +174,11 @@ Recommendations for Follow-Up Analysis
 
 In summary, the initial OLS regression results suggest that the model needs refinement or a different analytical approach. By focusing on more granular data, exploring alternative methods, and ensuring the use of robust control groups, you may be able to derive more meaningful insights and better understand the impact of the wellness program on dual enrollees.
 
+**TEABLEAU VISUALS:**
+<p align="center">
+  <img src="tab.png" width="400" height="200" />
+</p>
+
 ## Tech Stack
 - **Data Wrangling and Analysis:** `Python` with `pandas`, `numpy`, and `statsmodels` for data manipulation and statistical modeling.
 - **Data Visualization:** `matplotlib` and `seaborn` for generating informative plots and graphs. [Tableau](https://public.tableau.com/views/MedicareDualEnrollment2015-18/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)
