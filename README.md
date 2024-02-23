@@ -1,4 +1,4 @@
-# Healthcare Utilization Analysis for Dual Enrollees
+# Healthcare - Dual Enrollment
 
 <p align="center">
   <img src="images2.png" width="300" height="250" />
@@ -20,20 +20,21 @@
 
 ## Table of Contents
 - [Business Problem](#business-problem)
+- [SQL Code](#sql-code)
 - [Data Source](#data-source)
 - [Methods](#methods)
 - [Tech Stack](#tech-stack)
-- [Project Documentation](#project-documentation)
-- [SQL Code](#sql-code)
+- [Quick Glance at the Results](#tech-stack)
+- [Lessons learned and Recommendation](#lessons)
 - [Resources](#resources)
 
 ## Business Problem
 
 **Context in the Healthcare Sector:**
-The healthcare industry currently grapples with the significant issue of reducing hospital readmissions, particularly for high-risk patients. A wellness program has been suggested as a potential strategy to enhance patient health outcomes while concurrently cutting down on related expenses. This project's goal is to assess how effective the wellness program is in diminishing healthcare usage among individuals who participate in both Medicare and Medicaid, often known as dual enrollees.
+The healthcare industry currently grapples with the significant issue of reducing hospital readmissions, particularly for high-risk patients. A wellness program has been suggested as a potential strategy to enhance patient health outcomes while concurrently cutting down on related expenses. This project's goal is to assess how effective the wellness program is in diminishing healthcare usage among individuals who participate in both Medicare and Medicaid, often known as dual enrollees. Gaining a deeper understanding of dual enrollees is crucial for businesses, especially in strategizing marketing efforts to attract new memberships or retain current memberships. Typically, account managers or sales teams work on a contractual basis with businesses. This project aims to provide a comprehensive overview of dual enrollees from a causal inference standpoint, offering valuable insights for targeted business strategies.
 
-**Business Challenge - Leveraging Causal Inference for Strategic Insights:**
-Gaining a deeper understanding of dual enrollees is crucial for businesses, especially in strategizing marketing efforts to attract new memberships. Typically, account managers or sales teams work on a contractual basis with businesses. In some cases, they focus on tracking specific members to not only boost memberships but also to develop more effective marketing strategies. This project aims to provide a comprehensive overview of dual enrollees from a causal inference standpoint, offering valuable insights for targeted business strategies.
+**Business Challenge:**
+Inspect data such as data snooping to investigate possible models to use. 
 
 ## Data Source
 
@@ -41,9 +42,9 @@ Gaining a deeper understanding of dual enrollees is crucial for businesses, espe
 
 The data for this project is derived from submissions made by states to the Centers for Medicare & Medicaid Services (CMS), as required under the Medicare Modernization Act (MMA). These submissions are a critical source of information, as they furnish monthly snapshot data on individuals enrolled in both Medicare and Medicaid.
 
-**Nature of the Data:** 
 
-The provided data offers valuable insights into the number of dual enrollees, categorized by various eligibility criteria at both state and county levels. A crucial aspect to understand is that these numbers are not cumulative; they represent unique counts for each month. This distinction is vital for accurate analysis and interpretation of trends over time.
+
+
 
 
 ## SQL Code
