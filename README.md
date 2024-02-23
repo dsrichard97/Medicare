@@ -9,12 +9,8 @@
   <img src="https://img.shields.io/badge/Python_Version-3.10%2B-blue" alt="Python Version">
   <img src="https://img.shields.io/badge/SQL%2B-blue" alt="Google BigQuery">
   <img src="https://img.shields.io/github/last-commit/dsrichard97/Medicare_Dual_Enroll" alt="Last Commit">
-  <img src="https://img.shields.io/badge/Financial_Analysis-Trends-red" alt="Financial Analysis">
-  <img src="https://img.shields.io/badge/STAT-Time_Series-blue" alt="Time Series">
   <img src="https://img.shields.io/badge/STAT-Causal_Inference-blue" alt="Causal Inference">
-  <img src="https://img.shields.io/badge/Python-Pandas-green" alt="Pandas">
-  <a href="https://github.com/ellerbrock/open-source-badges/">
-    <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
+  <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
   </a>
 </p>
 
