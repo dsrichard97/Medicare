@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/SQL%2B-blue" alt="Google BigQuery">
   <img src="https://img.shields.io/github/last-commit/dsrichard97/Medicare_Dual_Enroll" alt="Last Commit">
   <img src="https://img.shields.io/badge/STAT-Causal_Inference-blue" alt="Causal Inference">
-  <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
   </a>
 </p>
 
