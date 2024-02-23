@@ -34,17 +34,13 @@
 The healthcare industry currently grapples with the significant issue of reducing hospital readmissions, particularly for high-risk patients. A wellness program has been suggested as a potential strategy to enhance patient health outcomes while concurrently cutting down on related expenses. This project's goal is to assess how effective the wellness program is in diminishing healthcare usage among individuals who participate in both Medicare and Medicaid, often known as dual enrollees. Gaining a deeper understanding of dual enrollees is crucial for businesses, especially in strategizing marketing efforts to attract new memberships or retain current memberships. Typically, account managers or sales teams work on a contractual basis with businesses. This project aims to provide a comprehensive overview of dual enrollees from a causal inference standpoint, offering valuable insights for targeted business strategies.
 
 **Business Challenge:**
-Inspect data such as data snooping to investigate possible models to use. 
+Conduct data snooping to investigate possible models to use. 
 
 ## Data Source
 
 **Data Origin and Regulatory Background:** 
 
-The data for this project is derived from submissions made by states to the Centers for Medicare & Medicaid Services (CMS), as required under the Medicare Modernization Act (MMA). These submissions are a critical source of information, as they furnish monthly snapshot data on individuals enrolled in both Medicare and Medicaid.
-
-
-
-
+The data for this project is derived from submissions made by states to the Centers for Medicare & Medicaid Services (CMS), as required under the Medicare Modernization Act (MMA). These submissions are stored in the form of monthly data on individuals enrolled in both Medicare and Medicaid(Dual Enrollees).
 
 
 ## SQL Code
@@ -90,19 +86,7 @@ ORDER BY
     Date;
 ```
 
-
-
-
-
-
-
-
-
-
-
-**Data Processing and Analysis Tools:**
-
-For data processing and analysis, SQL code is utilized, specifically leveraging the capabilities of Google BigQuery. Google BigQuery's robust platform allows for efficient handling and analysis of large datasets, making it an ideal tool for extracting meaningful patterns and conclusions from the CMS data. For a sample of the raw data: https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/dual.csv
+Frome the previous code we can generate a sample data: [Click here for data](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/dual.csv) .
 
 ## Methods - Causal inference (Initial Snooping)
 
