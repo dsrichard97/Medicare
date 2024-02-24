@@ -1,4 +1,4 @@
-# Healthcare - Dual Enrollment
+# Healthcare
 
 <p align="center">
   <img src="images2.png" width="300" height="250" />
@@ -11,6 +11,18 @@
   <img src="https://img.shields.io/github/last-commit/dsrichard97/Medicare_Dual_Enroll" alt="Last Commit">
   <img src="https://img.shields.io/badge/STAT-Causal_Inference-blue" alt="Causal Inference">
   </a>
+</p>
+
+<p>
+    Badge <a href="https://shields.io/">Source</a>
+  </p>
+</p>
+
+<p>
+  <h2>Authors</h2>
+  <ul>
+    <li><a href="https://github.com/dsrichard97">@dsrichard97</a></li>
+  </ul>
 </p>
 
 ## Table of Contents
