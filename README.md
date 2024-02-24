@@ -97,13 +97,13 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
 
 ## Methods - Causal inference (Initial Snooping)
 <p>
-  <img src="graphs.png" width="500" height="250" />
+  <img src="graphs.png" width="500" height="550" />
 </p>
 <p>
-  <img src="barchart.png" width="500" height="250" />
+  <img src="barchart.png" width="500" height="550" />
 </p>
 <p>
-  <img src="distrib.png" width="500" height="250" />
+  <img src="distrib.png" width="500" height="550" />
 </p>
 
 ## Tech Stack
