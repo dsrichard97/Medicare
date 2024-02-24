@@ -96,6 +96,9 @@ ORDER BY
 Frome the previous code we can generate a sample data: [Click here for data](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob/main/dual.csv) .
 
 ## Methods - Causal inference (Initial Snooping)
+  <img src="graphs.png" width="300" height="250" />
+  <img src="barchart.png" width="300" height="250" />
+  <img src="distrib.png" width="300" height="250" />
 
 
 ## Tech Stack
