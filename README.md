@@ -16,7 +16,7 @@
 <p>
     Badge <a href="https://shields.io/">Source</a>
   </p>
-</p>
+
 
 <p>
   <h2>Authors</h2>
@@ -104,7 +104,6 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
       <li>Tableau Dashboard</li>
       <li>PowerPoint</li>
     </ul>
-  </section>
 </p>
 
 ## Tech Stack
@@ -118,17 +117,16 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
 
 ## Results
 Enrollments over time for each measure
-<p>
-  <img src="graphs.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</p>
+<img src="graphs.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
+
+  
 Top 10 Counties
-<p>
-  <img src="barchart.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</p>
+<img src="barchart.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
+
+
 Distributions
-<p>
-  <img src="distrib.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</p>
+<img src="distrib.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
+
 
 In addressing the business challenge to evaluate the effectiveness of a wellness program for Medicare and Medicaid dual enrollees, our data snooping efforts have yielded insightful results. By examining enrollment trends for 'SLMB Only', 'QMB Only', and 'QI' within Jefferson County, we observed distinct patterns that suggest a significant impact of the wellness program on healthcare utilization. With 'QI' enrollments relatively stable around 9,000, 'SLMB Only' close to 5,000, and 'QI' again near 3,000, the data points towards a varying degree of engagement across different segments of the dual enrollee population. These findings, set against the backdrop of Jefferson County's diverse demographic and healthcare landscape, underline the potential of targeted wellness programs to not only enhance patient health outcomes but also to strategically reduce costs. The distinct enrollment numbers across programs highlight areas where the wellness initiative is either thriving or requires further adaptation to meet enrollee needs more effectively. This analysis provides a foundation for businesses to refine marketing and retention strategies, focusing on personalized approaches to maximize the wellness program's impact on dual enrollees' **health management** and **cost containment**.
 
@@ -137,9 +135,8 @@ FOR FULL PROJECT: [EDA](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob
 
 
 ## Lessons
-<p>
-  <img src="comm.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</p>
+
+<img src="comm.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
 The exploration of data, despite its inherent complexities, underscores the crucial role of a skilled team in translating insights into actionable outcomes. Engaging in exploratory data analysis (EDA) has highlighted the power of visual storytelling and strategic reporting in uncovering hidden patterns and informing decision-making processes. However, the pursuit of further data-driven inquiries must align with the overarching goal of fostering business growth and providing actionable solutions. As a statistician, it is imperative to combine analytical expertise with effective communication to create compelling results for team.
 
 
