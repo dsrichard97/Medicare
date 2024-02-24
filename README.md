@@ -137,7 +137,7 @@ FOR FULL PROJECT: [EDA](https://github.com/dsrichard97/Medicare_Dual_Enroll/blob
 ## Lessons
 
 <img src="comm.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-The exploration of data, despite its inherent complexities, underscores the crucial role of a skilled team in translating insights into actionable outcomes. Engaging in exploratory data analysis (EDA) has highlighted the power of visual storytelling and strategic reporting in uncovering hidden patterns and informing decision-making processes. However, the pursuit of further data-driven inquiries must align with the overarching goal of fostering business growth and providing actionable solutions. As a statistician, it is imperative to combine analytical expertise with effective communication to create compelling results for team.
+The exploration of data, despite its inherent complexities, underscores the crucial role of a skilled team in translating insights into actionable outcomes. Engaging in exploratory data analysis (EDA) has highlighted the power of visual storytelling and strategic reporting in uncovering hidden patterns and informing decision-making processes. However, the pursuit of further data-driven inquiries must align with the overarching goal of fostering business growth and providing actionable solutions. As a statistician, it is imperative to combine analytical expertise with effective communication to create compelling results for team or client.
 
 
 
