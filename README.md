@@ -100,7 +100,7 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
     <ul>
       <li>Business Problem</li>
       <li>SQL Code</li>
-      <li>Python Report(EDA)</li>
+      <li>Initial EDA</li>
       <li>Tableau Dashboard</li>
       <li>PowerPoint</li>
     </ul>
@@ -111,7 +111,6 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
 <p>
     <ul>
       <li>Google Cloud(Google BigQuery)</li>
-      <li>SQL</li>
       <li>Python</li>
       <li>Tableau</li>
     </ul>
