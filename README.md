@@ -136,7 +136,9 @@ In addressing the business challenge to evaluate the effectiveness of a wellness
 Further analysis reveals a noteworthy predominance of Qualified Medicare Beneficiaries (Full Medicaid Enrollees) within our data, particularly from 2015 to 2019, with Jefferson, Mobile, and Montgomery counties emerging as the top three contributors in the United States. Specifically, in Jefferson County, we find that 'QMB Only' enrollees represent the majority, followed by 'SLMB Only' enrollees, and then 'QI' enrollments. This pattern underscores the critical role these counties play in the broader context of healthcare utilization among dual enrollees. The success of our exploratory data analysis (EDA) in providing targeted insights into this specific group paves the way for further investigation through temporal trends, demographic analysis, and geographical distribution models. Such focused analyses promise to deepen our understanding of enrollment behaviors and the wellness program's effectiveness, offering valuable perspectives for tailoring future health initiatives and business strategies.
 
 ## Lessons
-
+<p>
+  <img src="comm.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
+</p>
 The exploration of data, despite its inherent complexities, underscores the crucial role of a skilled team in translating insights into actionable outcomes. Engaging in exploratory data analysis (EDA) has highlighted the power of visual storytelling and strategic reporting in uncovering hidden patterns and informing decision-making processes. However, the pursuit of further data-driven inquiries must align with the overarching goal of fostering business growth and providing actionable solutions. As a statistician, it is imperative to combine analytical expertise with effective communication to create compelling results for team.
 
 
