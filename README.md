@@ -97,22 +97,41 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
 
 ## Methods - Causal inference (Initial Snooping)
 <p>
+    <ul>
+      <li>Business Problem</li>
+      <li>SQL Code</li>
+      <li>Python Report(EDA)</li>
+      <li>Tableau Dashboard</li>
+      <li>PowerPoint</li>
+    </ul>
+  </section>
+</p>
+
+## Tech Stack
+<p>
+    <ul>
+      <li>Google Cloud(Google BigQuery)</li>
+      <li>SQL</li>
+      <li>Python</li>
+      <li>Tableau</li>
+    </ul>
+  </p>
+
+## Results
+Enrollments over time for each measure
+<p>
   <img src="graphs.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
 </p>
+Top 10 Counties
 <p>
   <img src="barchart.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
 </p>
+Distributions
 <p>
   <img src="distrib.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
 </p>
 
-## Tech Stack
-- **Data Wrangling and Analysis:** `Python` with `pandas`, `numpy`, and `statsmodels` for data manipulation and statistical modeling.
-- **Data Visualization:** `matplotlib` and `seaborn` for generating informative plots and graphs. [Tableau](https://public.tableau.com/views/MedicareDualEnrollment2015-18/Dashboard3?:language=en-US&:display_count=n&:origin=viz_share_link)
-- **Version Control:** `Git` for tracking changes and collaborative development.
-- **Hosting/Repository:** `GitHub` for hosting the project repository and documentation.
-
-## Results
+From the results, we can notice that from the data that there is a lot of number of qualified Meicare Benificaries(Full Medicaid Enrolles) most of our data. In terms of specifics, we notice that Jefferson county, Mobile, and Montogomery counties are the top 3 leading counties in the United States from 2015-2019. In terms of Jefferson county, we can see that on average we have QMB Only Enrollees(Highest), SLMB Enrollees, and QI enrollments that make up for most of our members in Jefferson County. The data snooping in general was a success becuase the EDA gave us good insights on a specific targeted group.
 
 ## Lessons
 
