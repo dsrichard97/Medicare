@@ -129,7 +129,7 @@ Distributions
 
 Tableau Visuals
 <img src="tab.jpeg" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-- [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Medicare?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+- To Visit Link: [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Medicare?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 
 In addressing the business challenge to evaluate the effectiveness of a wellness program for Medicare and Medicaid dual enrollees, our data snooping efforts have yielded insightful results. By examining enrollment trends for 'SLMB Only', 'QMB Only', and 'QI' within Jefferson County, we observed distinct patterns that suggest a significant impact of the wellness program on healthcare utilization. With 'QI' enrollments relatively stable around 9,000, 'SLMB Only' close to 5,000, and 'QI' again near 3,000, the data points towards a varying degree of engagement across different segments of the dual enrollee population. These findings, set against the backdrop of Jefferson County's diverse demographic and healthcare landscape, underline the potential of targeted wellness programs to not only enhance patient health outcomes but also to strategically reduce costs. The distinct enrollment numbers across programs highlight areas where the wellness initiative is either thriving or requires further adaptation to meet enrollee needs more effectively. This analysis provides a foundation for businesses to refine marketing and retention strategies, focusing on personalized approaches to maximize the wellness program's impact on dual enrollees' **health management** and **cost containment**.
