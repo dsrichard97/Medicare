@@ -114,7 +114,7 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
     </ul>
   </p>
 
-<body>
+
     <section>
         <h3>Enrollments Over Time for Each Measure</h3>
         <img src="graphs.png" srcset="graphs_medium.jpg 1000w, graphs_large.jpg 2000w" alt="Enrollments over time for each measure">
@@ -134,7 +134,6 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
         <h3>Tableau Visuals</h3>
         <img src="tab.jpeg" srcset="tab_medium.jpg 1000w, tab_large.jpg 2000w" alt="Tableau visuals showcasing data insights">
     </section>
-</body>
 
 - To Visit Link: [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Medicare?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
