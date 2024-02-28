@@ -114,26 +114,27 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
     </ul>
   </p>
 
-## Results
-Enrollments over time for each measure
-<section>
-<img src="graphs.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</section>
+<body>
+    <section>
+        <h3>Enrollments Over Time for Each Measure</h3>
+        <img src="graphs.png" srcset="graphs_medium.jpg 1000w, graphs_large.jpg 2000w" alt="Enrollments over time for each measure">
+    </section>
   
-Top 10 Counties
-<section>
-<img src="barchart.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</section>
+    <section>
+        <h3>Top 10 Counties</h3>
+        <img src="barchart.png" srcset="barchart_medium.jpg 1000w, barchart_large.jpg 2000w" alt="Top 10 counties based on specific criteria">
+    </section>
 
-Distributions
-<section>
-<img src="distrib.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</section>
+    <section>
+        <h3>Distributions</h3>
+        <img src="distrib.png" srcset="distrib_medium.jpg 1000w, distrib_large.jpg 2000w" alt="Distribution of data across different categories">
+    </section>
   
-Tableau Visuals
-<section>
-<img src="tab.jpeg" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-</section>
+    <section>
+        <h3>Tableau Visuals</h3>
+        <img src="tab.jpeg" srcset="tab_medium.jpg 1000w, tab_large.jpg 2000w" alt="Tableau visuals showcasing data insights">
+    </section>
+</body>
 
 - To Visit Link: [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Medicare?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
