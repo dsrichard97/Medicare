@@ -116,18 +116,25 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
 
 ## Results
 Enrollments over time for each measure
+<section>
 <img src="graphs.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-
+</section>
   
 Top 10 Counties
+<section>
 <img src="barchart.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-
+</section>
 
 Distributions
+<section>
 <img src="distrib.png" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
-
+</section>
+  
 Tableau Visuals
+<section>
 <img src="tab.jpeg" srcset="medium.jpg 1000w, large.jpg 2000w" alt="example" />
+</section>
+
 - To Visit Link: [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Medicare?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 
