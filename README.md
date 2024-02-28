@@ -114,26 +114,38 @@ Frome the previous code we can generate a sample data: [Click here for data](htt
     </ul>
   </p>
 
-
-    <section>
-        <h3>Enrollments Over Time for Each Measure</h3>
-        <img src="graphs.png" srcset="graphs_medium.jpg 1000w, graphs_large.jpg 2000w" alt="Enrollments over time for each measure">
-    </section>
-  
-    <section>
-        <h3>Top 10 Counties</h3>
-        <img src="barchart.png" srcset="barchart_medium.jpg 1000w, barchart_large.jpg 2000w" alt="Top 10 counties based on specific criteria">
-    </section>
-
-    <section>
-        <h3>Distributions</h3>
-        <img src="distrib.png" srcset="distrib_medium.jpg 1000w, distrib_large.jpg 2000w" alt="Distribution of data across different categories">
-    </section>
-  
-    <section>
-        <h3>Tableau Visuals</h3>
-        <img src="tab.jpeg" srcset="tab_medium.jpg 1000w, tab_large.jpg 2000w" alt="Tableau visuals showcasing data insights">
-    </section>
+<p>
+   <ul>
+    <li>
+        <strong>Enrollments Over Time for Each Measure</strong>
+        <ul>
+            <li>This section provides a visual representation of enrollments over time for various measures.</li>
+            <li>The image file <code>graphs.png</code> is displayed, with responsive options for medium (<code>graphs_medium.jpg</code>) and large (<code>graphs_large.jpg</code>) screens.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Top 10 Counties</strong>
+        <ul>
+            <li>Highlights the top 10 counties based on specific criteria.</li>
+            <li>The bar chart image <code>barchart.png</code> is shown, with responsive variations for medium (<code>barchart_medium.jpg</code>) and large (<code>barchart_large.jpg</code>) views.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Distributions</strong>
+        <ul>
+            <li>Showcases the distribution of data across different categories.</li>
+            <li>The distribution graph <code>distrib.png</code> is included, with medium (<code>distrib_medium.jpg</code>) and large (<code>distrib_large.jpg</code>) versions for responsive design.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Tableau Visuals</strong>
+        <ul>
+            <li>Presents Tableau visuals that offer insights into the data.</li>
+            <li>The Tableau visualization <code>tab.jpeg</code> is provided, with medium (<code>tab_medium.jpg</code>) and large (<code>tab_large.jpg</code>) resolutions to accommodate different display sizes.</li>
+        </ul>
+    </li>
+</ul>
+</p>
 
 - To Visit Link: [TABLEAU](https://public.tableau.com/views/MEDICARE_17047605414730/Medicare?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
