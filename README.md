@@ -133,7 +133,6 @@ Further analysis reveals a noteworthy predominance of Qualified Medicare Benefic
 <p>
  The exploration of data, despite its inherent complexities, underscores the crucial role of a skilled team in translating insights into actionable outcomes. Engaging in exploratory data analysis (EDA) has highlighted the power of visual storytelling and strategic reporting in uncovering hidden patterns and informing decision-making processes. However, the pursuit of further data-driven inquiries must align with the overarching goal of fostering business growth and providing actionable solutions. As a statistician, it is imperative to combine analytical expertise with effective communication to create compelling results for team or client. In summary, it is equally as important to be a domain expert.
 </p>
-    
     <h2 id="resources">Resources</h2>
     <ul>
         <li><a href="https://csulb-my.sharepoint.com/:p:/g/personal/richard_diazdeleon01_student_csulb_edu/EYy-nyChep5EqCPcvolVEsgBXFeoiqrH0wkjYPoxnf7QZA?e=k2u6kt">PowerPoint</a></li>
